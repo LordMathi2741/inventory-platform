@@ -1,0 +1,33 @@
+﻿services:
+  inventory:
+    image: inventory
+    container_name: inventory_platform
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+    restart: always
+    networks:
+      - inventory-network
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    restart: always
+    networks:
+      - inventory-network
+
+networks:
+  inventory-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local

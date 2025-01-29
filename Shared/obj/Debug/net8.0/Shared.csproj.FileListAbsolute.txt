@@ -1,0 +1,15 @@
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/bin/Debug/net8.0/Shared.deps.json
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/bin/Debug/net8.0/Shared.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/bin/Debug/net8.0/Shared.pdb
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/bin/Debug/net8.0/Support.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/bin/Debug/net8.0/Support.pdb
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.csproj.AssemblyReference.cache
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.AssemblyInfoInputs.cache
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.AssemblyInfo.cs
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.csproj.CoreCompileInputs.cache
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.csproj.CopyComplete
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/refint/Shared.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.pdb
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/ref/Shared.dll

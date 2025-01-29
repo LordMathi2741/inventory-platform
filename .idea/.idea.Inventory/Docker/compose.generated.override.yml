@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  inventory:
+    build:
+      context: "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory"
+      dockerfile: "ApiGateway/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ApiGateway.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "inventory:dev"
+    ports: []
+    volumes:
+    - "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway:/app:rw"
+    - "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory:/src:rw"
+    - "/Users/lordmathi2741/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
