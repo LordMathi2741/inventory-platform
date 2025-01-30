@@ -72,32 +72,27 @@ public class RabbitMqService : IRabbitMqService
 
         public async Task SendMessageAsync(CreateProductCommand command)
         {
-            await SendMessageToQueueAsync(command, "create_product");
+            await SendMessageToQueueAsync(command, _queueName);
         }
 
         public async Task SendMessageAsync(UpdateProductCommand command)
         {
-            await SendMessageToQueueAsync(command, "update_product");
+            await SendMessageToQueueAsync(command, _queueName);
         }
 
         public async Task SendMessageAsync(DeleteProductCommand command)
         {
-            await SendMessageToQueueAsync(command, "delete_product");
+            await SendMessageToQueueAsync(command, _queueName);
         }
 
         public async Task SendMessageAsync(GetAllProductsQuery query)
         {
-            await SendMessageToQueueAsync(query, "get_all_products");
+            await SendMessageToQueueAsync(query, _queueName);
         }
 
         public async Task SendMessageAsync(GetProductByIdQuery query)
         {
-            await SendMessageToQueueAsync(query, "get_product_by_id");
+            await SendMessageToQueueAsync(query, _queueName);
         }
-
-        public void Dispose()
-        {
-            _channel.Close();
-            _connection.Close();
-        }
+        
     }
