@@ -41,11 +41,14 @@ public class InventoryController
     
     public async Task<Product?> GetProductById(GetProductByIdQuery query)
     {
+        await _rabbitMqService.SendMessageAsync(query);
         return await _productQueryService.Handle(query);
+        
     }
     
     public async Task<IEnumerable<Product>> GetProducts(GetAllProductsQuery query)
     {
+        await _rabbitMqService.SendMessageAsync(query);
         return await _productQueryService.Handle(query);
     }
 }
