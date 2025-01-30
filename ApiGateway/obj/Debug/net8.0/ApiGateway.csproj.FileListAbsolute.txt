@@ -53,3 +53,4 @@
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/obj/Debug/net8.0/ApiGateway.pdb
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/obj/Debug/net8.0/ApiGateway.genruntimeconfig.cache
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/obj/Debug/net8.0/ref/ApiGateway.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/obj/Debug/net8.0/ApiGateway.sourcelink.json

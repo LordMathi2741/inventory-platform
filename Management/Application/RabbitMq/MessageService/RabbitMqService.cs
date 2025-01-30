@@ -4,6 +4,7 @@ using Management.Domain.Service;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Exceptions;
 using Support.Management.Domain.Model.Commands;
+using Support.Management.Domain.Model.Queries;
 
 namespace Management.Application.RabbitMq.MessageService;
 public class RabbitMqService : IRabbitMqService
@@ -83,7 +84,17 @@ public class RabbitMqService : IRabbitMqService
         {
             await SendMessageToQueueAsync(command, "delete_product");
         }
-        
+
+        public async Task SendMessageAsync(GetAllProductsQuery query)
+        {
+            await SendMessageToQueueAsync(query, "get_all_products");
+        }
+
+        public async Task SendMessageAsync(GetProductByIdQuery query)
+        {
+            await SendMessageToQueueAsync(query, "get_product_by_id");
+        }
+
         public void Dispose()
         {
             _channel.Close();

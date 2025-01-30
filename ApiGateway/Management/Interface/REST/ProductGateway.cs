@@ -4,6 +4,7 @@ using Management.Interface.RabbitMQ;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 using Support.Management.Domain.Model.Commands;
+using Support.Management.Domain.Model.Queries;
 
 namespace ApiGateway.Management.Interface.REST;
 
@@ -49,5 +50,28 @@ public class ProductGateway : ControllerBase
         var command = new DeleteProductCommand(objectId);
         await _inventoryController.DeleteProduct(command);
         return Ok(true);
+    }
+    
+    [HttpGet("id")]
+    public async Task<IActionResult> GetProduct([FromQuery] string id)
+    {
+        if (!ObjectId.TryParse(id, out ObjectId objectId))
+        {
+            return BadRequest("Invalid id");
+        }
+        var query = new GetProductByIdQuery(objectId);
+        var product = await _inventoryController.GetProductById(query);
+        if (product == null) return NotFound();
+        var productResource = ProductResourceFromEntityAssembler.ToResourceFromEntity(product);
+        return Ok(productResource);
+    }
+    
+    [HttpGet]
+    public async Task<IActionResult> GetProducts()
+    {
+        var query = new GetAllProductsQuery();
+        var products = await _inventoryController.GetProducts(query);
+        var productResources = products.Select(ProductResourceFromEntityAssembler.ToResourceFromEntity);
+        return Ok(productResources);
     }
 }

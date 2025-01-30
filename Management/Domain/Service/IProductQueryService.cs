@@ -6,4 +6,5 @@ namespace Management.Domain.Service;
 public interface IProductQueryService
 {
     Task<IEnumerable<Product>> Handle(GetAllProductsQuery query);
+    Task<Product?> Handle(GetProductByIdQuery query);
 }

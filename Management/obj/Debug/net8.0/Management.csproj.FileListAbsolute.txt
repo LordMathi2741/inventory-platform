@@ -15,3 +15,4 @@
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/Debug/net8.0/refint/Management.dll
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/Debug/net8.0/Management.pdb
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/Debug/net8.0/ref/Management.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/Debug/net8.0/Management.sourcelink.json

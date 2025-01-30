@@ -13,3 +13,4 @@
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/refint/Shared.dll
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.pdb
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/ref/Shared.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/Debug/net8.0/Shared.sourcelink.json

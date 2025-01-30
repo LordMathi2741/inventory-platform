@@ -10,3 +10,4 @@
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/obj/Debug/net8.0/refint/Support.dll
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/obj/Debug/net8.0/Support.pdb
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/obj/Debug/net8.0/ref/Support.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/obj/Debug/net8.0/Support.sourcelink.json
