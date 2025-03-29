@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/ApiGateway.csproj": {}
+    "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/ApiGateway/ApiGateway.csproj": {}
   },
   "projects": {
-    "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/ApiGateway.csproj": {
+    "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/ApiGateway/ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/ApiGateway.csproj",
+        "projectUniqueName": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/ApiGateway/ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/ApiGateway.csproj",
+        "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/ApiGateway/ApiGateway.csproj",
         "packagesPath": "/Users/lordmathi2741/.nuget/packages/",
-        "outputPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/obj/",
+        "outputPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/ApiGateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lordmathi2741/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/Management.csproj": {
-                "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/Management.csproj"
+              "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/Management.csproj": {
+                "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/Management.csproj"
               }
             }
           }
@@ -74,147 +74,14 @@
         }
       }
     },
-    "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/Management.csproj": {
+    "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/Management.csproj",
+        "projectUniqueName": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/Management.csproj",
         "projectName": "Management",
-        "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/Management.csproj",
+        "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/Management.csproj",
         "packagesPath": "/Users/lordmathi2741/.nuget/packages/",
-        "outputPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/lordmathi2741/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/Shared.csproj": {
-                "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/Shared.csproj"
-              },
-              "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/Support.csproj": {
-                "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/Support.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "MongoDB.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.2.1, )"
-            },
-            "RabbitMQ.Client": {
-              "target": "Package",
-              "version": "[6.7.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/Shared.csproj",
-        "projectName": "Shared",
-        "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/Shared.csproj",
-        "packagesPath": "/Users/lordmathi2741/.nuget/packages/",
-        "outputPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Shared/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/lordmathi2741/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/Support.csproj": {
-                "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/Support.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "MongoDB.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.2.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/Support.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/Support.csproj",
-        "projectName": "Support",
-        "projectPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/Support.csproj",
-        "packagesPath": "/Users/lordmathi2741/.nuget/packages/",
-        "outputPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/obj/",
+        "outputPath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lordmathi2741/.nuget/NuGet/NuGet.Config"
@@ -244,6 +111,10 @@
             "MongoDB.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.2.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.7.0, )"
             }
           },
           "imports": [

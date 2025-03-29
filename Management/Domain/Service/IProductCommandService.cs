@@ -1,4 +1,4 @@
-using Support.Management.Domain.Model.Commands;
+using Management.Domain.Model.Commands;
 
 namespace Management.Domain.Service;
 

@@ -1,8 +1,8 @@
+using Management.Domain.Model.Aggregates;
+using Management.Domain.Model.Commands;
 using Management.Domain.Repositories;
 using Management.Domain.Service;
-using Shared.Domain.Repositories;
-using Support.Management.Domain.Model.Aggregates;
-using Support.Management.Domain.Model.Commands;
+using Management.Shared.Domain.Repositories;
 
 namespace Management.Application.Internal.CommandServices;
 

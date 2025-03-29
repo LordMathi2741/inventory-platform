@@ -1,10 +1,10 @@
 using System.Text;
 using System.Text.Json;
-using Management.Domain.Service;
+using Management.Domain.Model.Commands;
+using Management.Domain.Model.Queries;
+using Management.Infrastructure.RabbitMQ;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Exceptions;
-using Support.Management.Domain.Model.Commands;
-using Support.Management.Domain.Model.Queries;
 
 namespace Management.Application.RabbitMq.MessageService;
 public class RabbitMqService : IRabbitMqService

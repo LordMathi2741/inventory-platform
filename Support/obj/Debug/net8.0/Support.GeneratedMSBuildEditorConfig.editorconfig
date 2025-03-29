@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Support
-build_property.ProjectDir = /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Support/
+build_property.ProjectDir = /Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Support/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

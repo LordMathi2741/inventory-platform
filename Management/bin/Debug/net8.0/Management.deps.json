@@ -9,9 +9,7 @@
       "Management/1.0.0": {
         "dependencies": {
           "MongoDB.EntityFrameworkCore": "8.2.1",
-          "RabbitMQ.Client": "6.7.0",
-          "Shared": "1.0.0",
-          "Support": "1.0.0"
+          "RabbitMQ.Client": "6.7.0"
         },
         "runtime": {
           "Management.dll": {}
@@ -234,23 +232,6 @@
             "fileVersion": "0.7.3.0"
           }
         }
-      },
-      "Shared/1.0.0": {
-        "dependencies": {
-          "MongoDB.EntityFrameworkCore": "8.2.1",
-          "Support": "1.0.0"
-        },
-        "runtime": {
-          "Shared.dll": {}
-        }
-      },
-      "Support/1.0.0": {
-        "dependencies": {
-          "MongoDB.EntityFrameworkCore": "8.2.1"
-        },
-        "runtime": {
-          "Support.dll": {}
-        }
       }
     }
   },
@@ -448,16 +429,6 @@
       "sha512": "sha512-U9Ix4l4cl58Kzz1rJzj5hoVTjmbx1qGMwzAcbv1j/d3NzrFaESIurQyg+ow4mivCgkE3S413y+U9k4WdnEIkRA==",
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
-    },
-    "Shared/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Support/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

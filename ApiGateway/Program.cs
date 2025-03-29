@@ -1,17 +1,17 @@
-
 using Management.Application.Internal.CommandServices;
 using Management.Application.Internal.QueryServices;
 using Management.Application.RabbitMq.MessageService;
+using Management.Application.RabbitMq.Publishers;
 using Management.Domain.Repositories;
 using Management.Domain.Service;
 using Management.Infrastructure.Persistence.MongoEFC.Repositories;
-using Management.Interface.RabbitMQ;
+using Management.Infrastructure.RabbitMQ;
+using Management.Shared.Domain.Repositories;
+using Management.Shared.Infrastructure.MongoEFC.Persistence;
+using Management.Shared.Infrastructure.MongoEFC.Persistence.Repository;
+using Management.Shared.Infrastructure.MongoEFC.Persistence.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using RabbitMQ.Client;
-using Shared.Domain.Repositories;
-using Shared.Infrastructure.MongoEFC.Persistence;
-using Shared.Infrastructure.MongoEFC.Persistence.Repository;
-using Shared.Infrastructure.MongoEFC.Persistence.UnitOfWork;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,7 +39,7 @@ builder.Services.AddScoped<IProductCommandService,ProductCommandService>();
 builder.Services.AddScoped<IProductQueryService,ProductQueryService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<InventoryController>();
+builder.Services.AddScoped<ProductPublisher>();
 builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
 var connectionString = configuration.GetConnectionString("MongoDb");

@@ -4,10 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management", "Management\Management.csproj", "{C01A99B4-83F9-41B5-929F-8BFECAFC77E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{90C2886D-5C68-41C6-8AF5-6882427FF4E6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Support", "Support\Support.csproj", "{0E36141F-A4BC-4927-A53C-6D42157E9619}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20BA3F4C-A44A-4444-88FB-EBFDDCE0366F}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
@@ -27,14 +23,6 @@ Global
 		{C01A99B4-83F9-41B5-929F-8BFECAFC77E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C01A99B4-83F9-41B5-929F-8BFECAFC77E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C01A99B4-83F9-41B5-929F-8BFECAFC77E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90C2886D-5C68-41C6-8AF5-6882427FF4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90C2886D-5C68-41C6-8AF5-6882427FF4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90C2886D-5C68-41C6-8AF5-6882427FF4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90C2886D-5C68-41C6-8AF5-6882427FF4E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E36141F-A4BC-4927-A53C-6D42157E9619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E36141F-A4BC-4927-A53C-6D42157E9619}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E36141F-A4BC-4927-A53C-6D42157E9619}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E36141F-A4BC-4927-A53C-6D42157E9619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

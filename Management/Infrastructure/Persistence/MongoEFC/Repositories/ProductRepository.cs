@@ -1,7 +1,7 @@
+using Management.Domain.Model.Aggregates;
 using Management.Domain.Repositories;
-using Shared.Infrastructure.MongoEFC.Persistence;
-using Shared.Infrastructure.MongoEFC.Persistence.Repository;
-using Support.Management.Domain.Model.Aggregates;
+using Management.Shared.Infrastructure.MongoEFC.Persistence;
+using Management.Shared.Infrastructure.MongoEFC.Persistence.Repository;
 
 namespace Management.Infrastructure.Persistence.MongoEFC.Repositories;
 

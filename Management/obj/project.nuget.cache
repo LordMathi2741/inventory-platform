@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fDj0i+I4AdE=",
+  "dgSpecHash": "2Vqzz4Tzbkk=",
   "success": true,
-  "projectFilePath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/Management.csproj",
+  "projectFilePath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/Management.csproj",
   "expectedPackageFiles": [
     "/Users/lordmathi2741/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/lordmathi2741/.nuget/packages/microsoft.entityframeworkcore/8.0.10/microsoft.entityframeworkcore.8.0.10.nupkg.sha512",

@@ -16,3 +16,16 @@
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/Debug/net8.0/Management.pdb
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/Debug/net8.0/ref/Management.dll
 /Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/Management/obj/Debug/net8.0/Management.sourcelink.json
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/bin/Debug/net8.0/Management.deps.json
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/bin/Debug/net8.0/Management.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/bin/Debug/net8.0/Management.pdb
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.csproj.AssemblyReference.cache
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.AssemblyInfoInputs.cache
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.AssemblyInfo.cs
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.csproj.CoreCompileInputs.cache
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.sourcelink.json
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/refint/Management.dll
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/Management.pdb
+/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/Management/obj/Debug/net8.0/ref/Management.dll

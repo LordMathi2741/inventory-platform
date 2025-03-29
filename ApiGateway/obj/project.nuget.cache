@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/CjybvmeQc=",
+  "dgSpecHash": "Asq8jFGUzfw=",
   "success": true,
-  "projectFilePath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/Inventory/ApiGateway/ApiGateway.csproj",
+  "projectFilePath": "/Users/lordmathi2741/Documents/Proyects/ASP NET/inventory-platform/ApiGateway/ApiGateway.csproj",
   "expectedPackageFiles": [
     "/Users/lordmathi2741/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/lordmathi2741/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",

@@ -1,5 +1,5 @@
-using Shared.Domain.Repositories;
-using Support.Management.Domain.Model.Aggregates;
+using Management.Domain.Model.Aggregates;
+using Management.Shared.Domain.Repositories;
 
 namespace Management.Domain.Repositories;
 
